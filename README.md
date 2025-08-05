@@ -50,6 +50,7 @@ StockWhisperer/
 │── main.py # Menu to run scraper, dashboard, or backfill
 │── README.md
 
+<pre> ```bash 📁 StockWhisperer ├── scraping/ │ ├── yahoo_scraper.py │ └── finviz_scraper.py ├── db/ │ └── stockwhisperer.db ├── export_csv.py ├── dashboard.py ├── backfill_data.py ├── main.py ├── requirements.txt └── README.md ``` </pre>
 
 ## 📸 Screenshots
 
