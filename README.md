@@ -17,7 +17,7 @@ I wanted to build something that felt like a real product while also showing my 
    - Average sentiment summary (Positive / Negative / Neutral)
    - Color-coded table of headlines
    - Sentiment trend line chart
-   - Sentiment distribution histogram
+   - Sentiment distribution histogram <br>
 ✅ Cron job to run scraper daily (automation)  
 ✅ Optional script to backfill fake 30-day history for testing
 
@@ -35,22 +35,22 @@ I wanted to build something that felt like a real product while also showing my 
 
 ## 📂 Project Structure
 
-StockWhisperer/
-│── screenshots/
-│   ├── dashboard.png
-│   ├── sentiment_chart.png
-│   ├── sentiment_distribution.png
-│   ├── table_view.png
-│── scraping/
-│ └── yahoo_scraper.py # Scrapes Finviz headlines & saves to DB
-│── db/
-│ └── stockwhisperer.db # SQLite database
-│── dashboard.py # Streamlit dashboard
-│── backfill_data.py # Creates fake 30-day history for testing
-│── main.py # Menu to run scraper, dashboard, or backfill
-│── README.md
+StockWhisperer/<br>
+│── screenshots/ <br>
+│   ├── dashboard.png <br>
+│   ├── sentiment_chart.png <br>
+│   ├── sentiment_distribution.png <br>
+│   ├── table_view.png <br>
+│── scraping/ <br>
+│ └── yahoo_scraper.py # Scrapes Finviz headlines & saves to DB <br>
+│── db/ <br>
+│ └── stockwhisperer.db # SQLite database <br>
+│── dashboard.py # Streamlit dashboard <br>
+│── backfill_data.py # Creates fake 30-day history for testing <br>
+│── main.py # Menu to run scraper, dashboard, or backfill <br>
+│── README.md <br>
 
-<pre> 📁 StockWhisperer ├── scraping/ │ ├── yahoo_scraper.py │ └── finviz_scraper.py ├── db/ │ └── stockwhisperer.db ├── export_csv.py ├── dashboard.py ├── backfill_data.py ├── main.py ├── requirements.txt └── README.md ``` </pre>
+
 
 ## 📸 Screenshots
 
