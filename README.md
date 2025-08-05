@@ -18,7 +18,8 @@ I wanted to build something that felt like a real product while also showing my 
    - Color-coded table of headlines
    - Sentiment trend line chart
    - Sentiment distribution histogram <br>
-✅ Cron job to run scraper daily (automation)
+
+✅ Cron job to run scraper daily (automation) 
 ✅ Optional script to backfill fake 30-day history for testing
 
 ---
